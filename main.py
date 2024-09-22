@@ -25,7 +25,7 @@ while True:
         print("Removed")
         functions.write_todos(todos)
 
-    elif user_action.startswith("show")
+    elif user_action.startswith("show"):
         todos = functions.get_todos()
 
         new_todos = []
